@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
-
-/*--------------------HERO--------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -9,16 +7,20 @@
   font-family: 'Nunito', sans-serif;
 }
 
+/*--------------------HERO--------------------*/
+
 .header-hero {
   width: 100%;
   height: 80vh;
-  position: relative;
+  position: sticky;
+  z-index: -1;
 }
 
 .image-hero {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: fixed;
 }
 
 .hero-infos{
@@ -53,4 +55,59 @@
 .navbar-nav .nav-link.active{
   font-weight: 600;
   text-decoration: underline;
+}
+
+/*--------------------FOOTER--------------------*/
+footer{
+  background-color: rgb(38, 40, 43);
+}
+
+.footer-titl{
+  color: #efefef;
+  font-size:large;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.InfosContact-component{
+  color:#efefef;
+  font-size: small;
+}
+
+.footer-menu{
+  list-style: none;
+  padding: 0;
+  margin :0;
+  display: flex;
+  flex-direction: column;
+  font-size:small;
+}
+
+.footer-menu .nav-link{
+  color: #efefef;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.footer-menu .nav-link:hover{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.footer-menu .nav-link.active{
+  color: white !important;
+  text-decoration: none;
+  font-weight: 600 !important;
+}
+
+.bi{
+  color: gray;
+  margin: 0.5rem;
+
+}
+
+.bi:hover{
+  color: white;
 }

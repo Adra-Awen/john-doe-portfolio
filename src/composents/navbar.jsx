@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Navbar () {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div className="container-fluid">
             <NavLink className="navbar-brand" href="/">John Doe</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 

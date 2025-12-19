@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Projects({ variant }) {
   return (
-    <ul className={`navbar-nav ${variant === "footer" ? "" : "me-auto mb-2 mb-lg-0"}`}>
+    <ul className={`navbar-nav ${variant === "footer" ? "footer-menu" : "me-auto mb-2 mb-lg-0"}`}>
       <li className="nav-item">
         <NavLink to="/realisations" className="nav-link">Réalisations</NavLink>
       </li>

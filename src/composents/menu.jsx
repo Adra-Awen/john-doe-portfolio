@@ -1,9 +1,9 @@
 import "../index.css";
 import { NavLink } from "react-router-dom";
 
-function Menu({variant="navbar"}) {
+function Menu({variant="footer"}) {
     return (
-        <ul className={`navbar-nav ${variant === "footer" ? "" : "me-auto mb-2 mb-lg-0"}`}>
+        <ul className={`navbar-nav ${variant === "footer" ? "footer-menu" : "me-auto mb-2 mb-lg-0"}`}>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/" end>Accueil</NavLink>
                     </li>
