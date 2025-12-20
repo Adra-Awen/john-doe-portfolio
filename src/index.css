@@ -129,6 +129,10 @@ footer{
   text-align: center;
 }
 
+.card-title{
+  font-weight: 700;
+}
+
 .card:hover{
   background-color: #efefef;
   box-shadow:0 8px 20px rgba (0, 0, 0, 0.2) !important;
@@ -137,4 +141,13 @@ footer{
 
 .btn-primary:hover{
   filter:opacity(85%)
+}
+
+.card svg{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 20px auto;
+  color: rgb(38, 40, 43);
+
 }
