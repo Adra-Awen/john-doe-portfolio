@@ -62,11 +62,6 @@ footer{
   background-color: rgb(38, 40, 43);
 }
 
-footer .fluid{
-  margin: 10%;
-
-}
-
 .footer-titl{
   color: #efefef;
   font-size:large;
@@ -116,3 +111,6 @@ footer .fluid{
 .bi:hover{
   color: white;
 }
+
+/*--------------------PAGES--------------------*/
+
