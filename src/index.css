@@ -112,6 +112,14 @@ footer{
   color: white;
 }
 
+/*--------------------BANNER--------------------*/
+.banner{
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 /*--------------------PAGES--------------------*/
 .portfolio-title{
   font-size: 50px;
@@ -149,5 +157,8 @@ footer{
   display: block;
   margin: 20px auto;
   color: rgb(38, 40, 43);
-
 }
+
+.accordion{
+    padding-top: 30px;
+  }
