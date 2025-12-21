@@ -9,7 +9,7 @@ function Realisations(){
         />
 
         <div className="realisations-page">
-            <h4 className="portfolio-title">Mes réalisations</h4>
+            <h4 className="portfolio-title"><strong>Mes réalisations</strong></h4>
             <p className="portfolio-text">Vous retrouverez ici mes dernières réalisations.</p>
             
             <div className="container-fluid">

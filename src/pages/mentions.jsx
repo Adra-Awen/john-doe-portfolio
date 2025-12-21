@@ -10,7 +10,7 @@ function Mentions(){
         />
 
         <div className="container mentions-page my-5">
-        <h4 className="portfolio-title">Mentions légales</h4>
+        <h4 className="portfolio-title"><strong>Mentions légales</strong></h4>
 
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">

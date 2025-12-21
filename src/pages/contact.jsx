@@ -11,7 +11,7 @@ function Contact(){
                 image="/assets/images/banner.jpg"
         />
         <div className="container contact-page my-5">
-            <h4 className="portfolio-title">Formulaire de contact</h4>
+            <h4 className="portfolio-title"><strong>Formulaire de contact</strong></h4>
             <p className="portfolio-text">Contactez moi via ce formulaire.</p>
             <ContactForm/>
             <div className="row align-items-start align-items-start g-4">

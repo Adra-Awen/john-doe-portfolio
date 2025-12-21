@@ -41,7 +41,7 @@
 
 .hero-text h1{
   font-family: 'Nunito', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -62,7 +62,7 @@
 .custom-modal .modal-content a{
   text-decoration: none;
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   font-size:x-large;
 }
 
@@ -148,7 +148,7 @@ footer{
 .portfolio-title{
   font-size: 50px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   padding-top: 30px;
 }
 
@@ -162,7 +162,7 @@ footer{
 }
 
 .card-title{
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .card:hover{
@@ -196,7 +196,7 @@ footer{
 }
 
 .form-label{
-  font-weight:700;
+  font-weight:600;
 }
 
 .info-contact .content-page{

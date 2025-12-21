@@ -8,8 +8,10 @@ function Accueil() {
       <img className="image-hero" src="/assets/images/hero-bg.jpg" alt="Image de présentation"/>
       <div className="hero-infos">
         <div className="hero-text">
-          <h1>John Doe</h1>
-          <h2>Développeur Web & Mobile</h2>
+          <strong>
+            <h1>John Doe</h1>
+            <h2>Développeur Web & Mobile</h2>
+          </strong>
         </div>
         <button
           type="button"
