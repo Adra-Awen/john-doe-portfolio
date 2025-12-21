@@ -162,3 +162,25 @@ footer{
 .accordion{
     padding-top: 30px;
   }
+
+.contact-form button{
+  margin-top: 2rem
+}
+
+.form-control{
+  margin-bottom: 1.5rem;
+}
+
+.form-label{
+  font-weight:700;
+}
+
+.info-contact .content-page{
+  padding: 0;
+  margin: 0;
+}
+
+.element-col{
+  padding:0;
+  margin: 0;
+}
