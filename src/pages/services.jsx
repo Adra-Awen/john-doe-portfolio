@@ -9,7 +9,7 @@ function Services(){
         />
 
         <div className="services-page">
-            <h4 className="portfolio-title">Mes services</h4>
+            <h4 className="portfolio-title"><strong>Mes services</strong></h4>
             <p className="portfolio-text">Mes services et prestations.</p>
             
 
