@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Accueil from "./pages/accueil";
+import Modal from './composents/modal';
 import Navbar from "./composents/navbar"
 import Banner from './composents/banner';
 import Footer from "./composents/footer"

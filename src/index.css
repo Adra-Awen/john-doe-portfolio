@@ -12,34 +12,58 @@
 .header-hero {
   width: 100%;
   height: 80vh;
-  position: sticky;
-  z-index: -1;
+  position: relative;
+  overflow: hidden;
 }
 
 .image-hero {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .hero-infos{
   position: absolute;
   top: 50%;
   left: 50%;
+  display: flex;
+  flex-direction: column;
   transform: translate(-50%, -50%);
   color: #efefef;
   text-align: center;
+  align-items: center;
   font-weight: 600;
+  gap: 1rem;
 }
 
 .hero-text h1{
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
+  margin: 0;
+}
+
+.btn-warning{
+  align-self: center;
 }
 
 .btn-warning:hover{
   filter:brightness(85%);
+  align-items: center;
+}
+
+.custom-modal .modal-content{
+  background-color: rgb(38, 40, 43);
+  color: white;
+}
+
+.custom-modal .modal-content a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size:x-large;
 }
 
 /*--------------------NAVBAR--------------------*/
@@ -177,10 +201,5 @@ footer{
 
 .info-contact .content-page{
   padding: 0;
-  margin: 0;
-}
-
-.element-col{
-  padding:0;
   margin: 0;
 }
