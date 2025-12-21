@@ -6,7 +6,9 @@ import Banner from './composents/banner';
 import Footer from "./composents/footer"
 import Realisations from './pages/realisations';
 import Services from './pages/services';
+import Contact from './pages/contact';
 import Mentions from './pages/mentions';
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<Accueil />} />
         <Route path="/realisations" element={<Realisations />} />
         <Route path="/services" element={<Services />} />
+        <Route path="contact" element={<Contact />} />
         <Route path="/mentions" element={<Mentions />} />
       </Routes>
       <Footer/>
