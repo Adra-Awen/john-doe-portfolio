@@ -15,7 +15,7 @@ function Footer() {
               email="contact@john-doe.fr"
               phone="33 6 01 02 04 05"
               address={{
-                street:"24 route de Lorient",
+                street:"24 rue de Lorient",
                 city:"35000 Rennes"
               }}
               variant="footer"/>
